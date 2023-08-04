@@ -1,0 +1,471 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>JUST GO</title>
+
+    
+
+    <link rel="shortcut icon" href="./images/favicon.png" type="image/x-icon">
+
+    <!--suite-->
+    <link rel="stylesheet" href="./font/transfonter.org-20230511-080201/stylesheet.css">
+    <!--Nexen-->
+    <link rel="stylesheet" href="./fonts/stylesheet.css">
+
+   <!-- Link Swiper's CSS -->
+   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+  
+<link rel="stylesheet" href="./index.css">
+</head>
+<body>
+  <div id="fixed">
+    <div id="top">
+        <div class="top_inner">
+        <ul>
+            <li><a href="#none">로그인</a></li>
+            <li><a href="#none">회원가입</a></li>
+            <li><a href="#none">예약확인</a></li>
+            <li><a href="#none">고객센터</a></li>
+        </ul>
+        </div> <!--top_inner-->
+    </div> <!--top-->
+
+
+    <div id="header">
+        <div class="header_inner">
+            <a href="./main.html"><img src="./images/logo.png" alt="저스트고 로고"></a>
+            <ul class="gnb">
+                <li><a href="#none">해외여행</a></li>
+                <li><a href="#none">국내여행</a></li>
+                <li><a href="#none">항공</a></li>
+                <li><a href="#none">호텔</a></li>
+                <li><a href="#none">투어&티켓</a></li>
+            </ul>
+            <ol>
+              <li><a href="#none"><img src="./images/search.png" alt="검색"></a></li>
+              <li><a href="#none">
+                <div class="slide-open" id="slide-open">
+                  <span class="burgur" id="burgur">
+                      <span class="top-line"></span>
+                      <span class="bot-line"></span>
+                   </span>
+               </div><!--slide-open-->
+             <div class="slide" id="slide">
+              <ul>
+                <li><a href="#none">해외여행</a></li>
+                <li><a href="#none">국내여행</a></li>
+                <li><a href="#none">항공</a></li>
+                <li><a href="#none">호텔</a></li>
+                <li><a href="#none">투어&티켓</a></li>
+              </ul>
+               </div><!--slide-->
+              </a></li>
+            </ol>
+        </div> <!--header_inner-->
+    </div> <!--header-->
+  </div> <!--fixed-->
+
+
+
+        <!-- Swiper -->
+  <div class="swiper main_banner">
+    <div class="swiper-wrapper">
+      <div class="swiper-slide bg1">
+        <a href="#"><!--<img src="./images/mainbanner1.jpg" alt="메인배너이미지">--></a>
+        <div class="main_text">
+          <h1>
+            보라카이 <br>
+            매력적인 일몰 만나기
+          </h1>
+          <p>BEST SUNSET IN MY LIFE</p>
+        </div> <!--main_text-->
+      </div>
+      <div class="swiper-slide bg2">
+        <a href="#"><!--<img src="./images/mainbanner2.jpg" alt="메인배너이미지2">--></a>
+        <div class="main_text2">
+          <h1>
+            연휴에는 가까운 일본 <br>
+            역대급 엔저 찬스
+          </h1>
+          <p>USJ 티켓부터 주유패스까지 터지는 할인 혜택</p>
+        </div> <!--main_text-->
+      </div>
+      <div class="swiper-slide bg3">
+        <a href="#"><!--<img src="./images/mainbanner3.jpg" alt="메인배너이미지3">--></a>
+        <div class="main_text">
+          <h1>
+            싱가포르 <br>
+            마리나베이샌즈 숙박권
+          </h1>
+          <p>마리나베이샌즈 1박권 추첨 이벤트</p>
+        </div> <!--main_text-->
+      </div>
+    </div>
+    <div class="swiper-pagination"></div>
+  </div>
+
+  <!-- Swiper JS -->
+  <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+
+  <!-- Initialize Swiper -->
+  <script>
+    var swiper = new Swiper(".main_banner", {
+      spaceBetween: 30,
+      pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+      },
+      // autoplay: {
+      //     delay: 3000,
+      //     disableOnInteraction: false,
+      //   },
+      loop: true,
+    });
+  </script>
+
+
+
+   <div id="deal">
+    <div class="deal_in">
+        <p>HOT DEAL</p>
+        <h1>지금 바로 <span>저스트고!</span></h1>
+        <div class="deal_box">
+
+          <div class="hotdeal">
+            <img src="./images/deal1.jpg" alt="핫딜1">
+            <div class="hotdeal_text">
+              <h3>[동남아]</h3>
+              <a href="#none"><h2>보라카이 4박 5일</h2></a>
+              <p>#인기리조트 #헤난라군 #디몰투어 #힐링마사지 #세일링보트</p>
+              <h1>599,900~</h1>
+            </div> <!--hotdeal_text-->
+          </div> <!--hotdeal-->
+
+          <div class="hotdeal">
+            <img src="./images/deal2.jpg" alt="핫딜2">
+            <div class="hotdeal_text">
+              <h3>[일본]</h3>
+              <a href="#none"><h2>오사카/도쿄 3박 4일</h2></a>
+              <p>#오사카가이드 #교토투어 #기모노체험 #스냅샷 #USJ미포함</p>
+              <h1>679,900~</h1>
+            </div> <!--hotdeal_text-->
+          </div> <!--hotdeal-->
+           
+        </div> <!--deal_box-->
+    </div> <!--deal_in-->
+   </div> <!--deal-->
+
+
+   <!-- Swiper -->
+ <div id="famous">
+  <h1>인기여행지</h1>
+ <div class="swiper place">
+  <div class="swiper-wrapper">
+    <div class="swiper-slide">
+      <a href="#"><img src="./images/famous1.jpg" alt="인기여행지1"></a>
+    </div>
+
+    <div class="swiper-slide">
+      <a href="#"><img src="./images/famous2.jpg" alt="인기여행지2"></a>
+    </div>
+
+    <div class="swiper-slide">
+      <a href="#"><img src="./images/famous3.jpg" alt="인기여행지3"></a>
+    </div>
+
+    <div class="swiper-slide">
+      <a href="#"><img src="./images/famous4.jpg" alt="인기여행지4"></a>
+    </div>
+
+    <div class="swiper-slide">
+      <a href="#"><img src="./images/famous5.jpg" alt="인기여행지5"></a>
+    </div>
+
+    <div class="swiper-slide">
+      <a href="#"><img src="./images/famous6.jpg" alt="인기여행지6"></a>
+    </div>
+
+    <div class="swiper-slide">
+      <a href="#"><img src="./images/famous7.jpg" alt="인기여행지7"></a>
+    </div>
+
+  </div> <!--swiper-wrapper-->
+  </div> <!--place-->
+
+</div> <!--famous-->
+
+
+<!-- Swiper JS -->
+<script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+
+<!-- Initialize Swiper -->
+<script>
+  var swiper = new Swiper(".place", {
+
+    breakpoints: {
+      200: {
+        slidesPerView: 2,
+        spaceBetween: 10,
+      },
+      600: {
+        slidesPerView: 3,
+        spaceBetween: 10,
+      },
+      900: {
+        slidesPerView: 4,
+        spaceBetween: 10,
+      },
+      1200: {
+        slidesPerView: 5,
+        spaceBetween: 10,
+      },
+    },
+    // navigation: {
+    //   nextEl: ".famous_next",
+    //   prevEl: ".famous_prev",
+    // },
+  });
+</script>
+
+
+
+<div id="reco">
+  <div class="reco_box">
+    <div class="tab_container">
+      <div class="reco_text">
+      <h2>
+        지금부터 연휴준비 <br>
+        저스트고 추천 여행지 :)
+      </h2>
+
+      <ul class="tabs">
+        <li><span tab_name="#tab1">긴 연휴 알차게! 장거리</span></li>
+        <li><span tab_name="#tab2">휴양, 액티비티 모두 잡는 동남아</span></li>
+        <li><span tab_name="#tab3">가까운 곳에서 즐기는 국내여행</span></li>
+      </ul>
+      </div> <!--reco_text-->
+
+      <div id="tab1" class="tab_content">
+        <div class="reco_pic">
+          <a href="#none"><img src="./images/reco1.jpg" alt="장소1"></a>
+          <a href="#none"><img src="./images/reco2.jpg" alt="장소2"></a>
+        </div> <!--reco_pic-->
+      </div> <!--tab1-->
+
+      <div id="tab2" class="tab_content">
+        <div class="reco_pic">
+          <a href="#none"><img src="./images/reco3.jpg" alt="장소3"></a>
+          <a href="#none"><img src="./images/reco4.jpg" alt="장소4"></a>
+        </div> <!--reco_pic-->
+      </div> <!--tab2-->
+
+      <div id="tab3" class="tab_content">
+        <div class="reco_pic">
+          <a href="#none"><img src="./images/reco5.jpg" alt="장소5"></a>
+          <a href="#none"><img src="./images/reco6.jpg" alt="장소6"></a>
+        </div> <!--reco_pic-->
+      </div> <!--tab3-->
+    </div> <!--tab_container-->
+  
+  </div><!--reco_box-->
+
+</div> <!--reco-->
+
+
+
+   <!-- Swiper -->
+   <div id="benefit">
+   <div class="swiper be_box">
+    <div class="swiper-wrapper">
+      <div class="swiper-slide">
+        <a href="#none"><img src="./images/benefit1.png" alt="혜택1"></a>
+      </div>
+  
+      <div class="swiper-slide">
+        <a href="#none"><img src="./images/benefit2.png" alt="혜택2"></a>
+      </div>
+  
+      <div class="swiper-slide">
+        <a href="#none"><img src="./images/benefit3.png" alt="혜택3"></a>
+      </div>
+  
+      <div class="swiper-slide">
+        <a href="#none"><img src="./images/benefit4.png" alt="혜택4"></a>
+      </div>
+
+      <div class="swiper-slide">
+        <a href="#none"><img src="./images/benefit5.png" alt="혜택5"></a>
+      </div>
+  
+    </div> <!--swiper-wrapper-->
+    </div> <!--be_box-->
+  
+  </div> <!--benefit-->
+  
+  
+  <!-- Swiper JS -->
+  <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+  
+  <!-- Initialize Swiper -->
+  <script>
+    var swiper = new Swiper(".be_box", {
+      breakpoints: {
+      200: {
+        slidesPerView: 2,
+        spaceBetween: 10,
+      },
+      600: {
+        slidesPerView: 3,
+        spaceBetween: 10,
+      },
+      850: {
+        slidesPerView: 4,
+        spaceBetween: 10,
+      },
+      1150: {
+        slidesPerView: 5,
+        spaceBetween: 10,
+      },
+    },
+    
+    });
+  </script>
+
+
+
+  <div id="review">
+    <div class="review_box">
+      <div class="review_pic">
+        <img src="./images/review_img.jpg" alt="체코이미지">
+      </div> <!--review_pic-->
+
+      <div class="review_contents">
+        <h6>현생을 살아갈 힘을 준</h6>
+        <h1>행복했던 동유럽 일주</h1>
+        <p>
+          가이드님 덕분에 정말 편하고 알차게 동유럽 일정을 소화할 수 있었던 것 같아요.
+          헝가리 – 오스트리아 – 체코 3개국을 7박 9일 간 다녀왔습니다.
+          물가는 타 유럽 국가들에 비해 저렴하지만 유럽의 향기를 물씬 느낄 수 있는 
+          여행지여서 더 마음이 갔던 것 같아요. 7박 간 묵었던 호텔은 엄청 넓지는 않지만 
+          2명이서 이용하기에 딱 알맞은 크기였고 룸 컨디션도 좋았어요 ···
+        </p>
+
+        <a href="#none" class="p_btn">유럽 여행 상품 확인하기</a>
+
+        <div class="re_product">
+          <a href="#none"><img src="./images/review_img2.jpg" alt="상품1"></a>
+          <a href="#none"><img src="./images/review_img3.jpg" alt="상품2"></a>
+        </div> <!--re_product-->
+      </div> <!--review_contents-->
+
+    </div> <!--review_box-->
+
+  </div> <!--review-->
+
+
+  <div id="call">
+    <div class="call_box">
+    <div class="call_text">
+      <h1>상담문의</h1>
+      <h3>문의번호 1234 - 5678 </h3>
+    </div> <!--call_text-->
+
+    <div class="icon">
+      <div class="icon_box">
+        <a href="#none">
+        <img src="./images/icon1.png" alt="아이콘1">
+        <p>여행문의</p>
+        </a>
+      </div> <!--icon_box-->
+
+      <div class="icon_box">
+        <a href="#none">
+        <img src="./images/icon2.png" alt="아이콘2">
+        <p>기업 출장</p>
+        </a>
+      </div> <!--icon_box-->
+
+      <div class="icon_box">
+        <a href="#none">
+        <img src="./images/icon3.png" alt="아이콘3">
+        <p>단체여행</p>
+        </a>
+      </div> <!--icon_box-->
+
+      <div class="icon_box">
+        <a href="#none">
+        <img src="./images/icon6.png" alt="아이콘6">
+        <p>맞춤 여행</p>
+        </a>
+      </div> <!--icon_box-->
+
+      <div class="icon_box">
+        <a href="#none">
+        <img src="./images/icon4.png" alt="아이콘4">
+        <p>항공 문의</p>
+        </a>
+      </div> <!--icon_box-->
+
+      <div class="icon_box">
+        <a href="#none">
+        <img src="./images/icon5.png" alt="아이콘5">
+        <p>숙박 문의</p>
+        </a>
+      </div> <!--icon_box-->
+    </div> <!--icon-->
+    </div> <!--call_box-->
+  </div> <!--call-->
+
+
+  <div id="sub">
+    <div class="sub_box">
+    <a href="#none"><img src="./images/sub_banner.jpg" alt="서브배너"></a>
+    </div><!--sub_box-->
+  </div> <!--sub-->
+
+
+  <div id="footer">
+    <div class="footer_inner">
+      <div class="footer_logo">
+        <a href="#"><img src="./images/footer_logo.png" alt="로고"></a>
+      </div> <!--footer_logo-->
+
+      <div class="footer_contents">
+        <ul>
+          <li><a href="#none">회사소개</a></li>
+          <li><a href="#none">이용약관</a></li>
+          <li><a href="#none">개인정보처리방침</a></li>
+          <li><a href="#none">여행약관</a></li>
+          <li><a href="#none">해외여행자보험</a></li>
+        </ul>
+
+        <p>
+          JUST GO(주) / 대표 : 사공은 / 전화번호 : 02-123-4567 <br>
+          JUST GO:Crop. All Rights reserved
+        </p>
+      </div> <!--footer_contents-->
+
+      <ol>
+        <li><a href="#none"><img src="./images/sns1.png" alt="sns이미지1"></a></li>
+        <li><a href="#none"><img src="./images/sns2.png" alt="sns이미지2"></a></li>
+        <li><a href="#none"><img src="./images/sns3.png" alt="sns이미지3"></a></li>
+        <li><a href="#none"><img src="./images/sns4.png" alt="sns이미지4"></a></li>
+      </ol>
+
+    </div> <!--footer_inner-->
+
+  </div> <!--footer-->
+
+
+   <!--라이브러리-->
+   <script src="./jquery-3.6.0.min.js"></script>
+   <script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
+   <script src="./hamburger.js">
+   </script><script src="./index.js"></script>
+</body>
+</html>
